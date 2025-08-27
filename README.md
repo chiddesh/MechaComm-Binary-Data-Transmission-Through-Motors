@@ -66,20 +66,6 @@ Copy code
 
 ---
 
-## Project Structure
-
-MotorComm/
-│
-├─ gui.py # Tkinter GUI for sending and receiving messages
-├─ pico_encoder.py # Pico code to decode motor rotations into text
-├─ README.md # Project documentation
-└─ ... # Additional scripts or resources
-
-yaml
-Copy code
-
----
-
 ## How to Run
 
 1. **Flash the Raspberry Pi Pico** (both sending and receiving) with MicroPython:
@@ -121,41 +107,41 @@ python pc_side.py
 
 ## Requirements
 
-Raspberry Pi Pico (2 boards: sending and receiving)
+- Raspberry Pi Pico (2 boards: sending and receiving)
 
-Stepper motor (sending Pico)
+- Stepper motor (sending Pico)
 
-Rotary encoder (receiving Pico)
+- Rotary encoder (receiving Pico)
 
-MicroPython firmware on both Picos
+- MicroPython firmware on both Picos
 
-Python 3.x on your PC
+- Python 3.x on your PC
 
-Tkinter (pip install tk if not included)
+- Tkinter (pip install tk if not included)
 
-PySerial (pip install pyserial) for GUI-PC communication
+- PySerial (pip install pyserial) for GUI-PC communication
 
 ## Features
 
-Mechanical Data Transmission: No Wi-Fi, Bluetooth, or wired communication needed.
+- Mechanical Data Transmission: No Wi-Fi, Bluetooth, or wired communication needed.
 
-Binary Encoding/Decoding: Real-time conversion of text to binary and back.
+- Binary Encoding/Decoding: Real-time conversion of text to binary and back.
 
-Interactive GUI: Send and view messages easily.
+- Interactive GUI: Send and view messages easily.
 
-Educational & Demonstrative: Learn about digital communication, encoding, and robotics.
+- Educational & Demonstrative: Learn about digital communication, encoding, and robotics.
 
 ## Applications
 
-Secure communication in restricted environments.
+- Secure communication in restricted environments.
 
-Teaching binary encoding and decoding.
+- Teaching binary encoding and decoding.
 
-Robotics backup communication systems.
+- Robotics backup communication systems.
 
-Interactive or artistic installations demonstrating physical data transfer.
+- Interactive or artistic installations demonstrating physical data transfer.
 
-Novelty educational gadgets and DIY electronics projects.
+- Novelty educational gadgets and DIY electronics projects.
 
 ## License
 
