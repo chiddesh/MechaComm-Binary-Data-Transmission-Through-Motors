@@ -95,30 +95,32 @@ git clone https://github.com/yourusername/MotorComm.git
 
 Upload the scripts to each Pico using Thonny:
 
-Sending Pico: sending_pico.py
+    Sending Pico: sending_pico.py
 
-Receiving Pico: encoder.py
+    Receiving Pico: encoder.py
 
-Connect the hardware:
+    Connect the hardware:
 
-Sending Pico with stepper motor.
+    Sending Pico with stepper motor.
 
-Receiving Pico with rotary encoder.
+    Receiving Pico with rotary encoder.
 
 Run the GUI on your PC (optional for monitoring):
 
-bash
-Copy code
+```bash
 python pc_side.py
-Enter text in the GUI and click Send.
+```
 
-Sending Pico converts text to binary → rotates the motor.
+    Enter text in the GUI and click Send.
 
-Receiving Pico decodes motor rotations → reconstructs text.
+    Sending Pico converts text to binary → rotates the motor.
 
-View the decoded message on the PC GUI or Pico console.
+    Receiving Pico decodes motor rotations → reconstructs text.
 
-Requirements
+    View the decoded message on the PC GUI or Pico console.
+
+## Requirements
+
 Raspberry Pi Pico (2 boards: sending and receiving)
 
 Stepper motor (sending Pico)
@@ -133,7 +135,8 @@ Tkinter (pip install tk if not included)
 
 PySerial (pip install pyserial) for GUI-PC communication
 
-Features
+## Features
+
 Mechanical Data Transmission: No Wi-Fi, Bluetooth, or wired communication needed.
 
 Binary Encoding/Decoding: Real-time conversion of text to binary and back.
@@ -142,7 +145,8 @@ Interactive GUI: Send and view messages easily.
 
 Educational & Demonstrative: Learn about digital communication, encoding, and robotics.
 
-Applications
+## Applications
+
 Secure communication in restricted environments.
 
 Teaching binary encoding and decoding.
@@ -153,17 +157,10 @@ Interactive or artistic installations demonstrating physical data transfer.
 
 Novelty educational gadgets and DIY electronics projects.
 
-Future Improvements
-Add message integrity checks (checksum).
+## License
 
-Increase speed of transmission with optimized rotation encoding.
-
-Expand to multiple motor channels for parallel data transfer.
-
-Integrate with IoT applications for hybrid mechanical-electronic communication.
-
-License
 MIT License – Free to use, modify, and distribute.
 
-Author
+## Author
+
 Chiddesh – CSE Cyber Security, Easwari Engineering College
