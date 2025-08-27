@@ -27,9 +27,6 @@ Decode Binary → Text
 ▼
 Display Received Message
 
-yaml
-Copy code
-
 **Sending Side (GUI + Pico):**
 
 - User enters text in the GUI.
